@@ -15,9 +15,6 @@ public class TarefaService{
     private TarefaRepository repository;
 
     public ResponseTarefaDto criarTarefa(CreateTarefaDto dto){
-        if(dto.titulo() == null || dto.titulo().length() < 3){
-            throw new IllegalArgumentException("O título deve ter pelo menos de 3 caracteres!");
-        }
         Tarefa novaTarefa = new Tarefa(dto.titulo());
 
         repository.save(novaTarefa);
