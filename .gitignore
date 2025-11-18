@@ -1,0 +1,76 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# === Build do Java ===
+/target/
+/build/
+!/src/main/
+/*.class
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# === Maven ===
+/.mvn/
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+/logs/
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# === Gradle ===
+/.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Logs ===
+*.log
+
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
+
+# === Arquivos temporários ===
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# === Arquivos de configuração locais / sensíveis ===
+.env
+.env.*
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+*.db
+*.key
+*.pem
+
+
